@@ -1,4 +1,4 @@
-import java.util.Arrays;
+//Java数组章节练习题
 public class ArrayUtils{
 	
 	//1.计算数组中最大指
