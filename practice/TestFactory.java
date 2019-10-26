@@ -60,6 +60,6 @@ class SurfaceBookComputer implements Computer{
 } 
 class AlienwareComputer implements Computer{
         public void printComputer(){
-		System.out.println("Alienware 配置高，性能好");
+		System.out.println("Alienware 配置很高，性能好");
 	}
 } 
