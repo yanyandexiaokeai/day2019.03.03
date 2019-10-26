@@ -3,7 +3,7 @@ public class TestFactory{
 	public static void main(String[] args){
 		//定义客户端
 		Client client =new Client();
-		System.out.println("请输入您购买的计算机类型：mac,surface,alienware");
+		System.out.println("请输入您想购买的计算机类型：mac,surface,alienware");
 		Scanner scanner =new Scanner(System.in);
 		String type = scanner.next();
 		Computer computer = ComputerFactory.createComputer(type);
